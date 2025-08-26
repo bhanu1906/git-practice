@@ -26,12 +26,6 @@ fi
         echo "git is not installed,going to install it.."
         dnf install git -y
         VALIDATE $? "Installing git"
-
-echo "git installation is not success...check it"
-        exit 1
-    else
-        echo "git installation is sucess"
-    fi
 else
     echo "Git is already installed, nothing to do.."
 fi
