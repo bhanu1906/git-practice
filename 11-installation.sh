@@ -36,8 +36,8 @@ then
     then
         echo "MYSQL installation is failure..please check"
         exit 1
-else
-    echo "MYSQL installation is success"
+    else
+        echo "MYSQL installation is success"
     fi
 else
     echo "MYSQL is already installed..nothing to do"
