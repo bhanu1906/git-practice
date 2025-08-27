@@ -1,8 +1,8 @@
 #!/bin/bash
 
-for i in {  0..10} #0-10
+for i in {  0..1000} #0-10
 do
-    echo$i
+    echo $i
 done
 
 # echo "1"
